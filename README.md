@@ -1,7 +1,7 @@
 # himawari 8
 Japanese geostationary weather satelite that takes [full disk images](https://himawari8.nict.go.jp/) in 16 bands.
 
- Centered at 141 E. longitude over the western Pacific Ocean
+Centered at 141 E. longitude over the western Pacific Ocean. Background [here](https://github.com/awslabs/open-data-docs/blob/main/docs/noaa/noaa-himawari/2020July07_JMA_Himawari.pdf)
 
 Data is avaliable via [open data on AWS](https://registry.opendata.aws/noaa-himawari/) from this bucket:
 ```shell
