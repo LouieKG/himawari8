@@ -25,4 +25,10 @@ The ISatSS directory contains tiled netcdf files specifically designed for use b
 
 Could be easier to read than the L1b data in HSF format since netcdf is standard
 
+## Processing netcdf data
+
+## image to video
+
+## To Youtube
+Copied code from [here](https://developers.google.com/youtube/v3/guides/uploading_a_video)
 
