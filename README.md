@@ -32,3 +32,16 @@ Could be easier to read than the L1b data in HSF format since netcdf is standard
 ## To Youtube
 Copied code from [here](https://developers.google.com/youtube/v3/guides/uploading_a_video)
 
+### Adamus:
+
+[Standard data Sheet](https://www.data.jma.go.jp/mscweb/en/himawari89/space_segment/hsd_sample/HS_D_users_guide_en_v12.pdf)
+
+made a conda enviroment in environments called hima from [here](https://github.com/ssec/polar2grid/blob/main/build_environment.yml)
+
+Used Geo2grid shell tool from [here](https://www.ssec.wisc.edu/software/geo2grid/index.html) [github](https://github.com/ssec/polar2grid/tree/main)
+
+Once files are downloaded for disk run:
+```shell
+geo2grid.sh -r ahi_hsd -w geotiff -p true_color -v -f dat_files/*FLDK*.DAT
+```
+Full list of options available in Geo2grid documenttion
